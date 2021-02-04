@@ -1,11 +1,11 @@
 <?php
 /*
-Plugin Name: Ultimate Security Checker
-Plugin URI: http://www.ultimateblogsecurity.com/
-Description: Security plugin which performs all set of security checks on your WordPress installation.<br>Please go to <a href="tools.php?page=wp-ultimate-security.php">Tools->Ultimate Security Checker</a> to check your website.
+Plugin Name: Safer Security Checker
+Plugin URI: http://boter.bubbleapps.io/
+Description: Security plugin which performs all set of security checks on your WordPress installation.<br>Please go to <a href="tools.php?page=wp-ultimate-security.php">Tools->Safer Security Checker</a> to check your website.
 Version: 2.7.10
-Author: Eugene Pyvovarov
-Author URI: http://www.ultimateblogsecurity.com/
+Author: (Made by Boter Technologies) anautonell
+Author URI: http://boter.bubbleapps.io/
 License: GPL2
 
 Copyright 2013  Eugene Pyvovarov  (email : bsn.dev@gmail.com)
