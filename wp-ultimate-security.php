@@ -55,8 +55,8 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
     function wp_ultimate_security_checker_setup_admin() {
       add_submenu_page(
         $parent_slug = 'settings.php',
-        $page_title =  __('Ultimate Security Checker', 'wp_ultimate_security_checker'),
-        $menu_title =  __('Ultimate Security Checker', 'wp_ultimate_security_checker'),
+        $page_title =  __('Safer Security Checker', 'wp_ultimate_security_checker'),
+        $menu_title =  __('Safer Security Checker', 'wp_ultimate_security_checker'),
         $capability = 'manage_network_options',
         $menu_slug = 'ultimate-security-checker',
         $function = 'wp_ultimate_security_checker_main'
@@ -67,8 +67,8 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
     {
         if (function_exists('is_multisite') && !is_multisite()) {
         $page = add_submenu_page( 'tools.php', 
-                                  __('Ultimate Security Checker', 'wp_ultimate_security_checker'), 
-                                  __('Ultimate Security Checker', 'wp_ultimate_security_checker'), 'manage_options',  'ultimate-security-checker', 
+                                  __('Safer Security Checker', 'wp_ultimate_security_checker'), 
+                                  __('Safer Security Checker', 'wp_ultimate_security_checker'), 'manage_options',  'ultimate-security-checker', 
                                   'wp_ultimate_security_checker_main');
         add_action('admin_print_scripts-' . $page, 'wp_ultimate_security_checker_admin_styles');
         }
@@ -104,7 +104,7 @@ Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
             </style>
 
                 <?php screen_icon( 'security-check' );?>
-            <h2 style="padding-left:5px;">Ultimate Security Checker
+            <h2 style="padding-left:5px;">Safer Security Checker
             <span style="position:absolute;padding-left:25px;">
             <a href="http://www.facebook.com/pages/Ultimate-Blog-Security/141398339213582" target="_blank"><img src="<?php echo plugins_url( 'img/facebook.png', __FILE__ ); ?>" alt="" /></a>
             <a href="http://twitter.com/BlogSecure" target="_blank"><img src="<?php echo plugins_url( 'img/twitter.png', __FILE__ ); ?>" alt="" /></a>
